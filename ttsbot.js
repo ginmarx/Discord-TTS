@@ -9,7 +9,7 @@ const fs = require("fs");
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-client.login("Nzc0NzA0NDAzOTA3MjE1NDAx.X6bpsw.B5-8hdwXlPDWi6PZMdPeWrwdrLE").catch(console.error);
+client.login("Nzc0NzA0NDAzOTA3MjE1NDAx.X6bpsw.fNdwX7dOLwcowvC-xXXZQgxfSo8").catch(console.error);
 
 function updateStatus() {
 	const connections = client.voice && client.voice.connections;
