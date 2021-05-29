@@ -5,11 +5,11 @@ console.log("LOADING LIBRARIES...");
 const request = require("request");
 const crypto = require("crypto");
 const fs = require("fs");
-Nzc0NzA0NDAzOTA3MjE1NDAx.X6bpsw.B5-8hdwXlPDWi6PZMdPeWrwdrLE
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-client.login("<SECRET_BOT_TOKEN>").catch(console.error);
+client.login("<Nzc0NzA0NDAzOTA3MjE1NDAx.X6bpsw.B5-8hdwXlPDWi6PZMdPeWrwdrLE>").catch(console.error);
 
 function updateStatus() {
 	const connections = client.voice && client.voice.connections;
